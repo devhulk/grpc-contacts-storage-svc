@@ -1,0 +1,46 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "first_name": "Almire",
+      "last_name": "Dudmarsh",
+      "email": "adudmarsh0@webeden.co.uk",
+      "phone_number": "221-313-1487"
+    },
+    {
+      "id": 2,
+      "first_name": "Lazar",
+      "last_name": "Pinnere",
+      "email": "lpinnere1@umich.edu",
+      "phone_number": "618-268-4262"
+    },
+    {
+      "id": 3,
+      "first_name": "Pepe",
+      "last_name": "Barlas",
+      "email": "pbarlas2@twitter.com",
+      "phone_number": "685-597-1356"
+    },
+    {
+      "id": 4,
+      "first_name": "Theressa",
+      "last_name": "Kopecka",
+      "email": "tkopecka3@timesonline.co.uk",
+      "phone_number": "404-751-4593"
+    },
+    {
+      "id": 5,
+      "first_name": "Alain",
+      "last_name": "Esley",
+      "email": "aesley4@youku.com",
+      "phone_number": "344-183-0882"
+    },
+    {
+      "id": 6,
+      "first_name": "Lockwood",
+      "last_name": "Mc Kellen",
+      "email": "lmckellen5@cnn.com",
+      "phone_number": "336-221-0002"
+    }
+  ]
+}

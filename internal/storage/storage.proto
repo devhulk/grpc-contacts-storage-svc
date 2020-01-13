@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+package definition;
+option go_package = "storagepb";
+
+// The StorageService service definition.
+service StorageService {
+  // Manages a set of Contacts
+  rpc ReadDB (ReadDBRequest) returns (ReadDBReply) {}
+  rpc CreateDBEntry (CreateDBEntryRequest) returns (CreateDBEntryReply) {}
+}
+
+// Resource to be managed
+message Contact {
+    string first_name = 1;
+    string last_name = 2;
+    string phone_number = 3;
+    string email = 4;
+    int32 id = 5;
+}
+
+// Request sent to Read current DB values 
+message ReadDBRequest {
+  string message = 1;
+}
+
+// Reply with contacts
+message ReadDBReply {
+  string message = 1;
+  repeated Contact contacts = 2;
+}
+
+// Request sent to Read current DB values 
+message CreateDBEntryRequest {
+  Contact contact = 1;
+}
+
+// Reply with contacts
+message CreateDBEntryReply {
+  string message = 1;
+}
